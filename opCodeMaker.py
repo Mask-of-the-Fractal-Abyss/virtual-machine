@@ -1,3 +1,5 @@
+# Very lazy python code
+
 def addNewFunction(name, impl):
     return f"""
 int {name} (Space* space) """ + "{" + impl + "}"
